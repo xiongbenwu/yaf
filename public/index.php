@@ -8,5 +8,5 @@ if( is_file( ROOT."conf".DS."application.ini" ) ){
 }
 */
 
-$app = new Yaf\Application( ROOT."Conf".DS."Application.ini" );
-$app->run();
+$app = new Yaf\Application( ROOT."conf".DS."application.ini" );
+$app->bootstrap()->run();
