@@ -57,11 +57,6 @@ class IndexController extends Yaf\Controller_Abstract{
 		echo '$decrypted_string = '.$decrypted_string;
 		echo '<br />';
 		echo '<br />';
-    //echo "Index Action ...";
-    //$medoo = new Medoo();
-    //print_r( $medoo );
-    //$user = new UserModel();
-
     //$ftp = new \FtpClient\FtpClient();
 
     // php mailer
@@ -141,9 +136,6 @@ class IndexController extends Yaf\Controller_Abstract{
     ]); 
     print_r( $rs );
     exit;
-
-
-
 		//$v = new Valitron\Validator( array('name' => 'Chester Tester') );
 		$v = new Valitron\Validator( array('name1' => 'Chester Tester') );
 		$v->rule( 'required', 'name' );
