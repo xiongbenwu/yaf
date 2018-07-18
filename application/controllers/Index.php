@@ -15,6 +15,17 @@ class IndexController extends Yaf\Controller_Abstract{
     //$curl = new \Curl\Curl(); 
 		//print_r( $curl );
 
+		//$v = new Valitron\Validator( array('name' => 'Chester Tester') );
+		$v = new Valitron\Validator( array('name1' => 'Chester Tester') );
+		$v->rule( 'required', 'name' );
+		if($v->validate()) {
+			echo "Yay! We're all good!";
+		} else {
+			// Errors
+			print_r($v->errors());
+		}
+		exit;
+
 		$collection = (new MongoDB\Client)->test->users;
 
 		$insertOneResult = $collection->insertOne([
@@ -28,8 +39,8 @@ class IndexController extends Yaf\Controller_Abstract{
 		exit;
 
 		//use Elasticsearch\ClientBuilder;
-		$client = \Elasticsearch\ClientBuilder::create()->build();
-		print_r( $client );
+		//$client = \Elasticsearch\ClientBuilder::create()->build();
+		//print_r( $client );
 
     exit;
   }
