@@ -8,9 +8,9 @@
 - 可是..
   - 打住！没有可是！那以后万一要是由于某种原因你就用不上Composer了，合着你就只能眼睁睁看着代码抓瞎？
 - 可是..
-  - ![stop](http://static.ti-node.com/github_yaf_1.jpeg?imageMogr2/thumbnail/!800)
+  ![stop](http://static.ti-node.com/github_yaf_1.jpeg?imageMogr2/thumbnail/!800)
 
-恕我直言，你见到过比yaf还还用的PHP框架吗？并没有，你并没有见过...
+恕我直言，你见到过比yaf还好用的PHP框架吗？并没有，你并没有见过...
 
 具体库的使用方法，目前，暂时，临时，先去看这些库的文档，都齐全的很...
 
